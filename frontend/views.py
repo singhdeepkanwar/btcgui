@@ -90,4 +90,5 @@ def output(request):
     print(f"Second Time interval T1: {t4-t3}s")
     
     context={'a':1,'filePathName':filePathName,'outStatement':outStatement,'p_val0':p_val0,'p_val1':p_val1,'p_val2':p_val2,'p_val3':p_val3}
+    
     return render(request,'index.html',context)

@@ -137,3 +137,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# AWS_ACCESS_KEY_ID = 'AKIAU3VHH7VHXXO6YY6F'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'harry-django-test'
+# AWS_S3_REGION_NAME = 'ap-south-1'
+# AWS_S3_SIGNATURE_NAME = 's3v4',
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL =  None
+# AWS_S3_VERITY = True
+# DEFAULT_FILE_STORAGE = 'Home.storages.MediaStore'
